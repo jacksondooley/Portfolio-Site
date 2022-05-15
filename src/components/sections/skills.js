@@ -32,12 +32,10 @@ const StyledSkillsSection = styled.section`
     list-style: none;
   }
 
-  skills-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 `;
+
+const StyledItem = styled.li`
+`
 
 const Skills = () => {
   const data = useStaticQuery(graphql`
@@ -78,10 +76,10 @@ const Skills = () => {
     const { title, rank } = frontmatter;
 
     return (
-      <>
+      <div className="skills-item">
         <div className="logo">{skillLogos[rank]}</div>
-        <div>{title}</div>
-      </>
+        <div> </div>
+      </div>
     );
   };
 
@@ -91,8 +89,8 @@ const Skills = () => {
         <h2 className="numbered-heading">Skills</h2>
         <div className="inner">
           <ul className="skills-grid">
-            {skillData.map(({ node }) => (
-              <li className="skills-item">{skill(node)}</li>
+            {skillData.map(({ node }, idx) => (
+              <StyledItem key={idx}>{skill(node)}</StyledItem>
             ))}
           </ul>
         </div>

@@ -39,6 +39,12 @@ const StyledContactSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  .resume-link {
+    ${({ theme }) => theme.mixins.bigButton};
+    margin-top: 50px;
+    margin-left: 50px;
+  }
 `;
 
 const Contact = () => {
@@ -66,6 +72,10 @@ const Contact = () => {
 
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello
+      </a>
+
+      <a className="resume-link" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        Resume
       </a>
     </StyledContactSection>
   );

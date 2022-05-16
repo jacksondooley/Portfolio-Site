@@ -67,7 +67,7 @@ const Contact = () => {
 
       <p>
         I'm currently looking for full time full-stack software engineering positions
-        or internships! Feel free to reach out! 
+        or internships! Feel free to reach out!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

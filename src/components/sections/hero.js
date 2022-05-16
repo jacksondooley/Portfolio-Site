@@ -70,7 +70,6 @@ const Hero = () => {
         {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
         </a> */}
-        .
       </p>
     </>
   );

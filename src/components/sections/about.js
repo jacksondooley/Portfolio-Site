@@ -136,9 +136,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Jackson Dooley and I building websites and working on hard problems. My
-              interest in web development started last year in 2021 when I took my first programming class,
-              intro to python. 
+              Hello! My name is Jackson Dooley and I building websites and working on hard problems.
+              I have been interested in computer and technology ever since I got my first raspberry pi
+              when I was in the 7th grade. My interest in web development started last year in 2021 
+              when I took my first programming class, intro to python. 
             </p>
 
             <p>

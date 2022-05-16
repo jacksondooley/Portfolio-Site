@@ -135,6 +135,9 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
+            <div>
+              
+            </div>
             <p>
               Hello! My name is Jackson Dooley and I building websites and working on hard problems.
               I have been interested in computer and technology ever since I got my first raspberry pi

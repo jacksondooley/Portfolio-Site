@@ -17,7 +17,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "heroku-postbuild": "gatsby build",
-    "start": "npm run build",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },

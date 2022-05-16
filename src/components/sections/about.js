@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'Ruby', 'React', 'Python', 'Node.js', 'Ruby on Rails'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,7 +136,7 @@ const About = () => {
         <StyledText>
           <div>
             <div>
-              
+
             </div>
             <p>
               Hello! My name is Jackson Dooley and I building websites and working on hard problems.

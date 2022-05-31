@@ -139,10 +139,11 @@ const About = () => {
 
             </div>
             <p>
-              Hello! My name is Jackson Dooley and I building websites and working on hard problems.
-              I have been interested in computer and technology ever since I got my first raspberry pi
-              when I was in the 7th grade. My interest in web development started last year in 2021 
+              Hello! My name is Jackson Dooley, I like building websites and working on hard problems.
+              I have been interested in computers and technology ever since I got my first raspberry pi
+              in the 7th grade. My interest in web development started last year in 2021 
               when I took my first programming class, intro to python. 
+              If I'm not writing code, I'm probably mountain biking, running, or reading.
             </p>
 
             <p>
